@@ -588,3 +588,61 @@ section {
 
 			}
 
+
+	.formBars {
+
+		margin-bottom: 130px;
+
+	}
+
+	.footer {
+
+		max-height: 500px;
+		min-height: 200px;
+		background-color: #04438b;
+		background-size: cover;
+
+	}
+
+
+		.content-wrap {
+
+			float:left;
+
+		}
+
+
+			.footerNav {
+
+				float: left;
+
+			}
+
+				.footerNav a {
+
+					display: inline-block;
+					margin-left: 20px;
+					text-decoration: none;
+					font-size: 18px;
+					color: white;
+					transition: 1s;
+					
+				}
+
+					.footerNav a:hover {
+
+
+						color: #3C3E3D;
+
+						}
+
+
+				.copyright {
+
+					font-family: "Arial Black";
+					margin: 0;
+					text-transform: uppercase;
+					max-width: 500px;
+					color: rgba(0,0,0,0.4);
+				}
+
