@@ -296,7 +296,7 @@ section {
 			display: inline-block;
 			font-size: 24px;
 			color: white;
-			font-family: "Arial Black";
+			font-family: "Arial Black", "Arial";
 			margin: 40px auto 10px auto
 
 		}
@@ -338,7 +338,7 @@ section {
 
 			background-color: white;
 			color: #04438b;
-			font-family: 'Arial Black';
+			font-family: "Arial Black", "Arial";
 			padding: 20px;
 			margin-left: 0px;
 
@@ -392,7 +392,7 @@ section {
 			display: inline-block;
 			font-size: 24px;
 			color: #04438b;
-			font-family: "Arial Black";
+			font-family: "Arial Black", "Arial";
 			margin: 40px auto 80px auto;
 
 		}
@@ -440,7 +440,7 @@ section {
 				margin-left: auto;
 				margin-right: auto;
 				color: white;
-				font-family: "Arial Black";
+				font-family: "Arial Black", "Arial";
 
 
 			}
@@ -482,7 +482,7 @@ section {
 						opacity: 0;
 						width: 200px;
 						height: 200px;
-						font-family: 'Arial Black';
+						font-family: "Arial Black", "Arial";
 						background-color: rgba(0, 0, 0, 0.75);
 
 					}
@@ -571,7 +571,7 @@ section {
 			display: inline-block;
 			font-size: 24px;
 			color: #04438b;
-			font-family: "Arial Black";
+			font-family: "Arial Black", "Arial";
 			margin: 30px auto 30px auto;
 		}
 
@@ -591,7 +591,7 @@ section {
 			display: inline-block;
 			font-size: 24px;
 			color: #04438b;
-			font-family: "Arial Black";
+			font-family: "Arial Black", "Arial";
 			margin: 30px auto 10px auto;
 
 		}
@@ -600,7 +600,7 @@ section {
 
 			color: #04438b;
 			font-size: 60px;
-			font-family: "Arial Black";
+			font-family: "Arial Black", "Arial";
 			margin-bottom: 10px;
 			background-color: #cbcbcb;
 			max-width: 1000px;
@@ -616,7 +616,7 @@ section {
 
 		max-width: 450px;
 		margin: 0 auto 50px;
-		font-family: 'Arial Black';
+		font-family: "Arial Black", "Arial";
 
 	}
 
@@ -642,7 +642,7 @@ section {
 			background: #04438b;
 			color: white;
 			font-size: 24;
-			font-family: "Arial Black";
+			font-family: "Arial Black", "Arial";
 			width: 33%;
 		}
 
@@ -755,7 +755,7 @@ section {
 
 				.copyright {
 
-					font-family: "Arial Black";
+					font-family: "Arial Black", "Arial";
 					margin: 0;
 					text-transform: uppercase;
 					max-width: 500px;
