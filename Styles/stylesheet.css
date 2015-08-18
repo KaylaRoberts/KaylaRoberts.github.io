@@ -87,8 +87,9 @@ section {
 
 		max-width: 1143px;
 		margin: 30px auto 20px auto;
-		display: flex;
 		display: -webkit-flex;
+		-webkit-align-items: center;
+		display: flex;
 		align-items: center;
 		
 
