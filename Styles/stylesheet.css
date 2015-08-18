@@ -10,7 +10,7 @@ header {
 	background: url(../teacherPics/MavSchool1.jpg) center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: "Arial Black";
+	font-family: "Arial Black", "Arial";
 	-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
