@@ -11,6 +11,9 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: "Arial Black";
+	-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 }
 
 section {
@@ -105,9 +108,13 @@ section {
 			width: 100px;
 			height: 100px;
 			border-radius: 50%;
+			border: 2px solid #02330f;
 			background: #005826;
 			float: left;
-			margin: 0 30px 20px 30px;			
+			margin: 0 30px 20px 30px;		
+			-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);	
 
 		}
 
@@ -143,10 +150,13 @@ section {
 			width: 100px;
 			height: 100px;
 			border-radius: 50%;
+			border: 2px solid #02330f;
 			background: #005826;
 			float: left;
 			margin: 0 30px 20px 30px;
-			
+			-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 		}
 
@@ -182,10 +192,13 @@ section {
 			width: 100px;
 			height: 100px;
 			border-radius: 50%;
+			border: 2px solid #02330f;
 			background: #005826;
 			float: right;
 			margin: 0 30px 0px 20px;
-
+			-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 		}
 
@@ -212,9 +225,13 @@ section {
 			width: 100px;
 			height: 100px;
 			border-radius: 50%;
+			border: 2px solid #02330f;
 			background: #005826;
 			float: right;
 			margin: 0 30px 0px 30px;
+			-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 		}
 
@@ -260,7 +277,7 @@ section {
 		text-align: center;
 		background-size: cover;
 		position: relative;
-
+		border: 2px solid #022247;
 
 	}
 
@@ -287,7 +304,9 @@ section {
 			.qow h2 span {
 
 				border: white solid 5px;
-
+				-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+				box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 			}
 
 		.qow p {
@@ -384,7 +403,9 @@ section {
 					padding-left: 50px;
 					padding-right: 50px;
 					background-size: cover;
-
+					-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+					-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+					box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 
 				}
 
@@ -402,7 +423,7 @@ section {
 		background-color: #01441e;
 		text-align: center;
 		position: relative;
-
+		border: 2px solid #02330f;
 	}
 
 		.helpfulLinks {
@@ -427,7 +448,9 @@ section {
 				.helpfulLinks h2 span {
 
 					border: white solid 5px;
-
+					-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+					-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+					box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 
 				}
 
@@ -447,13 +470,44 @@ section {
 					overflow: hidden;
 					max-height: 200px;
 					margin-bottom: 80px;
-
+					-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+					-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+					box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 				}
+
+					.wiggleOverlay {
+
+						position: absolute;
+						right: 100%;
+						opacity: 0;
+						width: 200px;
+						height: 200px;
+						font-family: 'Arial Black';
+						background-color: rgba(0, 0, 0, 0.75);
+
+					}
+
+						.wiggleOverlay p {
+
+							margin-top: 40%;
+
+						}
+
 
 
 					.wiggle:hover {
 					  -webkit-animation: animationA 750ms linear both;
 					  animation: animationA 750ms linear both;
+					  color: white;
+
+					}
+
+					.wiggle:hover .wiggleOverlay {
+
+						top: 0%;
+						right: 0%;
+						opacity: 1;
+						transition: all .2s ease-in-out;
 					}
 
 					
@@ -526,7 +580,9 @@ section {
 					padding-left: 50px;
 					padding-right: 50px;
 					background-size: cover;
-
+					-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+					-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+					box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 			}
 
 		#emailDirect {
@@ -550,7 +606,9 @@ section {
 			text-align: center;
 			margin-left: auto;
 			margin-right: auto;
-
+			-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+			box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 		}
 
 	form {
@@ -658,7 +716,7 @@ section {
 		min-height: 200px;
 		background-color: #04438b;
 		background-size: cover;
-
+		border: 2px solid #022247;
 	}
 
 
