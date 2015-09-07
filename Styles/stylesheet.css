@@ -22,6 +22,19 @@ section {
 
 }
 
+table {
+
+	background-color: white;
+
+}
+
+.tablePositioner {
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
 .remind101 {
 
 	width: 700px;
