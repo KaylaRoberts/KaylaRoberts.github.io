@@ -358,6 +358,12 @@ table {
 
 		}
 
+		.qow table {
+
+			margin-bottom: 20px;
+
+		}
+
 			@media (max-width: 800px) {
 
 				.qow p {
