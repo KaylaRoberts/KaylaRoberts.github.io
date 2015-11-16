@@ -490,9 +490,11 @@ table {
 
 #quote {
 
-	color: black;
+	color: #04438b;
 	font-family: "Verdana";
 	font-size: 24px;
+	border: none;
+	padding: 0px;
 
 }
 
