@@ -488,6 +488,14 @@ table {
 	
 }
 
+#quote {
+
+	color: black;
+	font-family: "Verdana";
+	font-size: 24px;
+
+}
+
 .paper img {
 
 	height: 200px;
