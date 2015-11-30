@@ -22,7 +22,19 @@ section {
 
 }
 
+.newList li {
 
+	text-decoration: underline;
+	font-style: italic;
+
+}
+
+#emph {
+
+	text-transform: uppercase;
+	text-decoration: underline;
+
+}
 
 table {
 
