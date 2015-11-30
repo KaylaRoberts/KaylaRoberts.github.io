@@ -22,6 +22,12 @@ section {
 
 }
 
+.newList {
+
+	text-align: left;
+
+}
+
 .newList li {
 
 	text-decoration: underline;
